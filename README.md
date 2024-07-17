@@ -1,1 +1,2 @@
-# Ecoli_host_adaptation
+# E. coli host adaptation
+
