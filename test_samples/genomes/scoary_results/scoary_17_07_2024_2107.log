@@ -1,0 +1,25 @@
+07/17/2024 09:07:25 PM    ==== Scoary started ====
+07/17/2024 09:07:25 PM    Command: /usr/local/bin/scoary -g ../panaroo_results/gene_presence_absence_roary.csv -t host_trait.csv -n ../panaroo_results/core_gene_alignment_filtered.aln.treefile --permute 1000 --threads 8
+07/17/2024 09:07:25 PM    Reading gene presence absence file
+07/17/2024 09:07:25 PM    Reading custom tree file
+07/17/2024 09:07:25 PM    Reading traits file
+07/17/2024 09:07:25 PM    Finished loading files into memory.
+
+
+07/17/2024 09:07:25 PM    ==== Performing statistics ====
+07/17/2024 09:07:25 PM    -- Filtration options --
+07/17/2024 09:07:25 PM    Individual (Naive):    0.05
+07/17/2024 09:07:25 PM    Collapse genes:    False
+
+
+07/17/2024 09:07:25 PM    Tallying genes and performing statistical analyses
+07/17/2024 09:07:25 PM    Gene-wise counting and Fisher's exact tests for trait: Is_dog
+07/17/2024 09:07:26 PM    Adding p-values adjusted for testing multiple hypotheses
+07/17/2024 09:07:26 PM    Storing results: Is_dog
+07/17/2024 09:07:26 PM    Calculating max number of contrasting pairs for each significant gene and performing 1000 permutations
+07/17/2024 09:07:29 PM    Storing results to file
+07/17/2024 09:07:29 PM    
+
+07/17/2024 09:07:29 PM    ==== Finished ====
+07/17/2024 09:07:29 PM    Checked a total of 9102 genes for associations to 1 trait(s). Total time used: 3 seconds.
+07/17/2024 09:07:29 PM    No warnings were recorded.

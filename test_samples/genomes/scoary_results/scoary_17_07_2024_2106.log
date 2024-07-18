@@ -1,0 +1,12 @@
+07/17/2024 09:06:41 PM    ==== Scoary started ====
+07/17/2024 09:06:41 PM    Command: /usr/local/bin/scoary -g ../panaroo_results/gene_presence_absence_roary.csv -t host_trait.csv -n ../panaroo_results/core_gene_alignment_filtered.aln.treefile --permute 1000 --threads 8
+07/17/2024 09:06:41 PM    Reading gene presence absence file
+07/17/2024 09:06:41 PM    Reading custom tree file
+07/17/2024 09:06:42 PM    Reading traits file
+07/17/2024 09:06:42 PM    CRITICAL:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/scoary/methods.py", line 265, in main
+    traitsdic, Prunedic = Csv_to_dic(traits,
+  File "/usr/local/lib/python3.9/site-packages/scoary/methods.py", line 568, in Csv_to_dic
+    sys.exit("Make sure the top-left cell in the traits file "
+SystemExit: Make sure the top-left cell in the traits file is either empty or 'Name'. Do not include empty rows
